@@ -4,14 +4,27 @@
     <title>Project IMran Talukdar</title>
 </head>
 
-<body style="background-color:lightblue">
-    <img src="file:///home/imran/Downloads/prime%20.png" />
+<body style="background-color:rgb(101, 228, 107)">
+    <img src="file:///home/imran/Downloads/primeU.png" />
     <h1>Since : 2002</h1>
-    <marquee behavior="scroll" direction="left" style="color:red;">PRIME UNIVERSITY..<i>a home for rendering prime
-            khowladge</i></marquee>
+    <marquee behavior="scroll" direction="left" style="color:rgb(0, 0, 0);">PRIME UNIVERSITY..<b>Registration Process of 3rd Convocation is started on 16.06.2025.Complite Your Registration Now</b></marquee>
     &nbsp;
-    <img src="file:///home/imran/Downloads/1714115458.jpg" Height="500" width="600" align="Right" />
-    <img src="file:///home/imran/Downloads/50.jpg" height="500" width="600">
+    <center>
+        <!-- The image has scrolling behavior to left -->
+        <marquee behavior="scroll" direction="left">
+           <img src="file:///home/imran/Downloads/prime 2.jpg" Height="400" width="400" align="Left" />
+           <img src="file:///home/imran/Downloads/1655263927.jpg" Height="400" width="400" align="Left" />
+           <img src="file:///home/imran/Downloads/1priime.jpg" Height="400" width="400" align="Left" />
+           
+
+        </marquee>
+
+        <!-- The image has scrolling behavior to the upper direction. -->
+        <marquee behavior="scroll" direction="up">
+            <img src="file:///home/imran/Downloads/unnamed.webp" Height="500" width="800" align=left" />
+               
+        </marquee>
+    </center>
 
     <marquee behavior="scroll" direction="left" style="color:rgb(255, 17, 0); font-size: 300%;font-family:georgia">
         Wellcome
@@ -538,7 +551,7 @@
                     technical expert/consultant
                     in the National level in Engineering and Education fields.</p>
                     <details>
-                        <summary style="color:violet;">Department of Computer Science & Engineering(CSE)</summary>
+                        <summary style="color:rgb(245, 40, 13);">Department of Computer Science & Engineering(CSE)</summary>
                         <b>
                             <p>Message From Head of the Department</p>
                         </b>
@@ -1383,7 +1396,7 @@
             <details>
                 <summary>Faculty Members</summary>
                 <details>
-                    <summary style="color:rgba(6, 196, 221, 0.479);">Department Of CSE</summary>
+                    <summary style="color:rgba(231, 11, 11, 0.479);">Department Of CSE</summary>
                     <b>
                         <p>
                             <li>prof.Abu Sayed,PhD</li>
@@ -1822,7 +1835,7 @@
     <li> &copy; Creating from: <p style="color:rgb(12, 94, 187);font-family:geneva;"><i>Talukdar IT</p></i></li>
     </li>
     <pre>
-        <img src="file:///home/imran/Downloads/PXL_20240530_060601506~2.jpg" height="100" width="100">
+        <img src="file:///home/imran/Downloads/IMG_9760-EDIT.jpg" height="100" width="100">
     &copy; Creator: Imran Hasan Talukdar
     Softower Engineer/Developer
     Bsc in CSE,Prime University
