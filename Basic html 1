@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Welcome</title>
+    </head>
+    <body>
+
+
+<nav>
+    <a href="imran.html" title="Visit home page" target="_self">home</a>
+    <a href="about.html">about me</a>
+    <a href="contact.html">contact</a>
+</nav>
+
+        <h1>hello i am imran</h1>
+
+
+
+        <p><b> web development</b></p>
+        (A+B)<sup>2</sup>
+        <p>H<sub>2</sub></p>
+        <section  id="About ne">
+<h2>About Me</h2>
+        
+            <p>AI Engineer</p>
+
+            </section>
+
+     <section id="skills">
+        <h2>Skills</h2>
+     <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVAscript0</li>
+        <li>sql</li>
+       </ol>
+
+       <ul type="square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVAscript0</li>
+        <li>sql</li>
+       </ul>
+     </section>
+
+     <dl>
+        <dt>HTML</dt>
+        <dd>Markup language</dd>
+     </dl>
+
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVAscript</li>
+        <ul>
+            <li>React</li>
+            <li>Anguler</li>
+            <li>Node</li>
+            <li>Express</li>
+        </ul>
+        <li>sql</li>
+       </ol>
+       <section id="project">
+        <h2>Project</h2>
+        <ol>
+            <li>PortFolio</li>
+            <li>ATM</li>
+            <li>Bus</li>
+        </ol>
+       </section>
+
+    <h3>
+        <p>Link</p>
+    </h3>
+
+    <a target="_blank" href="www.google.com">website</a>
+
+    <footer>
+        <p>copyright &copy; by imran hasan</p>
+        <a href="tel:0173333333">phone</a>
+        <a href="gmail:golla11@gmail.com">Emailvb   </a>
+    </footer>
+
+          <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Techonology</th>
+                    <th>mentall health</th>
+                    <th>Skills</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AI</td>
+                    <td>Good</td>
+                    <td>Programing</td>
+                    
+                </tr>
+                <tr>
+                    <td>ML</td>
+                    <td>Not good</td>
+                    <td>algotithm</td>
+                </tr>
+            </tbody>
+          </table>
+
+
+          <form>
+            <h4><p>Form</p></h4>
+   <div>
+               <label for="name"> Name:</label>
+            <input type="text" id="name" name="name" required/>
+</div>
+
+          <div>
+               <label for="email"> Email:</label>
+            <input type="text" id="email" name="email" required/>
+ </div>
+
+
+
+             <div>
+               <label for="message"> Message:</label>
+            <textarea name="message" id="message" cols="20" rows="10
+            "></textarea>
+
+</div>
+            <button type="submit">Submut</button>
+            <button type="reset">Clear</button>
+
+          </form>
+
+        </body>
+        </html>
