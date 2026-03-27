@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" initial-scale="1..0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="author" content="imran" />
+        <meta name="keywords" content="html"/>
+        <meta 
+        name="descripton"
+        content="imran hasan it officer"
+        
+        />
         <title>Welcome</title>
+        //for link <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <style>
+        body{
+            background-color: rgb(189, 192, 167);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+      </style>
+    
     </head>
     <body>
 
@@ -12,7 +30,8 @@
     <a href="contact.html">contact</a>
 </nav>
 
-        <h1>hello i am imran hasan</h1>
+
+        <h1>hello i am imran</h1>
 
 
 
@@ -79,6 +98,18 @@
         <p>copyright &copy; by imran hasan</p>
         <a href="tel:0173333333">phone</a>
         <a href="gmail:golla11@gmail.com">Emailvb   </a>
+
+        <h3>Follow me</h3>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/talukdar/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+                Facbook
+                <i class="fa-brands fa-youtube"></i>
+                Youtube 
+                </a>
+            </li>
+        </ul>
     </footer>
 
           <table border="1" cellpadding="5" cellspacing="0">
@@ -93,13 +124,18 @@
                 <tr>
                     <td>AI</td>
                     <td>Good</td>
-                    <td>Programing</td>
+                    <td rowspan="2">Programing</td>
+                    
+                </tr>
+                <tr>
+                    <td>CP</td>
+                    <td>Bad</td>
                     
                 </tr>
                 <tr>
                     <td>ML</td>
                     <td>Not good</td>
-                    <td>algotithm</td>
+                    <td rowspan="1">algotithm</td>
                 </tr>
             </tbody>
           </table>
