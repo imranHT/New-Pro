@@ -88,6 +88,11 @@
         </ol>
        </section>
 
+       <video width="320" controls>
+        <source src="iii.mp4" type="video/mp4">
+        your browser do not suppot video
+        </video>
+
     <h3>
         <p>Link</p>
     </h3>
@@ -102,7 +107,7 @@
         <h3>Follow me</h3>
         <ul>
             <li>
-                <a href="https://www.facebook.com/talukdar/" target="_blank">
+                <a href="https://www.facebook.com/talukdar.imran.01/" target="_blank">
                 <i class="fa-brands fa-facebook"></i>
                 Facbook
                 <i class="fa-brands fa-youtube"></i>
@@ -140,9 +145,37 @@
             </tbody>
           </table>
 
+ <h6><p>Skill Progress</p></h6>
 
-          <form>
-            <h4><p>Form</p></h4>
+<label for="htmlProgress">HTML</label>
+<progress id="htmlProgress" value="90" max="100">90%</progress>
+<div>
+<label for="CSSProgress">CSS </label>
+<progress id="CSSProgress" value="10" max="100">10%</progress>
+</div>
+<div>
+<label for="JavaScripptProgress">JavaScript</label>
+<progress id="JavaScriptProgress" value="0" max="100">0%</progress>
+</div>
+<div>
+<label for="JAVAProgress">JAVA</label>
+<progress id="JAVAProgress" value="99" max="100">99%</progress>
+
+<div>
+<h3>Experience Level</h3>
+<label for="experienceLevel">Experiences: </label>
+<meter id="experienceLevel"  min="0" max="5" value="1"> 1 years</meter>
+</div>
+
+</div>
+
+
+
+
+
+          <form action="https://formspree.io/f/xzdkdwgp" 
+          method="POST">
+            <h4><p>Formspree </p></h4>
    <div>
                <label for="name"> Name:</label>
             <input type="text" id="name" name="name" required/>
@@ -152,6 +185,54 @@
                <label for="email"> Email:</label>
             <input type="text" id="email" name="email" required/>
  </div>
+         <div>
+               <label for="age"> Age:</label>
+            <input type="number" id="age" name="age" min="18" required/>
+ </div>
+
+         <div>
+               <label for="website"> website:</label>
+            <input type="url" id="website" name="website"
+            pattern="https?://.+" />
+ </div>
+
+    <div>
+               <label for="image"> Upload image:</label>
+            <input type="file" id="image" name="image" 
+            accept="image/* "
+            required/>
+ </div>
+
+            <div>
+                <input type="radio" id="email" name="email" required />
+            </div>
+            <div>
+
+                <input type="date" id="email" name="email" required />
+            </div>
+
+            <div>
+
+                <input type="time" id="email" name="email" required />
+            </div>
+
+            <div>
+
+                <input type="checkbox" id="email" name="email" required />
+            </div>
+    
+            <div>
+           <label for="subject"> Subject:</label>
+           <select name="subject" id="subject">
+
+            <option value="inquiry">Inquiry</option>
+            <option value="feedback">Feedback</option>
+            <option value="imran">Imran</option>
+            <option value="Job opportunity">Job Opportunity</option>
+           </select>
+
+            
+            </div>
 
 
 
@@ -165,6 +246,13 @@
             <button type="reset">Clear</button>
 
           </form>
+
+          <div>
+          <h5>Map</h5>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49483.42613202455!2d89.6582811574872!3d24.45733856751599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdc1df830dba1b%3A0x58f0cbb092e78b62!2sSirajganj!5e1!3m2!1sen!2sbd!4v1774715190865!5m2!1sen!2sbd" width="200" height="250" style="border:0;" allowfullscreen="" loading="lazy" 
+ title="Sirajgong"  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
 
         </body>
         </html>
