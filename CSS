@@ -1,0 +1,161 @@
+/* Basic selectors */
+
+
+/*
+{ universal selector
+    color: darkgoldenrod;
+}
+    */
+
+
+:root{
+    --primary-color:#9bae9d;
+    --secondary-color:#392bd4;
+    --background-color:#ff4500;
+}
+
+body{
+            background-color: #d0d8d0;
+           color: rgb(11, 3, 3);
+           font-family: Roboto, sans-serif;
+          
+        }
+
+nav > a {
+    color: #392bd4;
+}
+
+a[href]{
+    color: darkorange;
+}
+
+header > section > ol > li {
+    background-color: rgb(53, 207, 15);
+    color: #090909;
+    font-size: 2rem;
+    font-weight: 200;
+    font-style: italic;
+    font-display: auto;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+       padding: 1.5rem;
+       border-radius: 1rem;
+           box-shadow: 0 0.5rem 0.4rem var(--primary-color);
+
+
+
+
+}
+
+header > section > ul > li {
+    color: #ff4500;
+    text-align: center;
+   
+}
+
+header > ol > li {
+    color: chocolate;
+    list-style: none;
+    margin: 0 0.8rem;
+    border: 1rem;
+    border-radius: 1rem;
+}
+
+ ul > li {
+    color: lightseagreen;
+    margin: 0.5ren;
+    
+}
+
+#link1{
+    color: brown;
+}
+
+#link3{
+    color: fuchsia;
+}
+
+h2,h3,h4,h5,h6{
+    background-color: rgb(16, 196, 31);
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 0.4rem var(--primary-color);
+}
+
+
+button {
+    background-color:chartreuse;
+    color: antiquewhite;
+    border-radius: 0.5rem;
+}
+
+button:hover{
+
+    background-color: darkcyan;
+    
+    
+
+}
+
+h1::first-letter{
+color: rebeccapurple;
+}
+h1 {
+    background-color: #1e328f55;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    font-display: auto;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 1rem;
+   
+}
+
+fieldset {
+    background-color: #ddc4c4;
+    border-radius: 1rem;
+    width: 100%;
+    box-shadow: rgb(0, 0, 0);
+}
+legend {
+    background-color: green;
+}
+
+div > label > textarea {
+    background-color: darkcyan;
+    border-radius: 1rem;
+    box-shadow: deeppink;
+}
+
+footer {
+    background-color: rgb(32, 224, 67);
+    color: rgb(19, 22, 15);
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0;
+    box-shadow: 0 0.5rem 0.4rem var(--secondary-color);
+    
+}
+
+.social-media a {
+    color: aliceblue;
+    font-size: 1.5rm;
+}
+
+.card{
+    background-color: rgb(123, 101, 101);
+    border-radius: 0.5rem;
+    margin: 1.2rem;
+    padding: 1.2rem;
+    box-shadow: 0 0.5rem 0.4rem var(--background-color);
+
+
+}
+
+
+
+
