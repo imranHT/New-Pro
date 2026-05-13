@@ -1,0 +1,56 @@
+import java.util.Scanner;
+public class Adv2{
+
+    static Scanner imran = new Scanner(System.in);
+    public static void main(String[] args) {
+
+
+        System.out.println("Welcome to function program");
+        areYouHuman();
+        userName();
+        userAge();
+        userNumber();
+        endProgram();
+    }
+
+
+    public static void areYouHuman() {
+
+        System.out.println("Code : AnTazZaLL");
+        System.out.println("Please enter given code :");
+        String code = imran.next();
+        if (code.equals("AnTazZaLL")) {
+            System.out.println("Access Granted");
+        } else {
+            System.out.println("Wrong Code");
+        }
+    }
+
+    public static void userName(){
+
+        imran.nextLine();
+
+        System.out.println("Enter your name :");
+        String name = imran.nextLine();
+        System.out.println("Your name is " +name);
+    }
+
+    public static void userAge(){
+
+        System.out.println("Enter your age :");
+        int age = imran.nextInt();
+        System.out.println("You are "+age+ " years old");
+    }
+
+    public static void userNumber(){
+
+        System.out.println("Enter your Number :");
+        int num = imran.nextInt();
+        System.out.println("Your phone number is " +num);
+    }
+
+    public static void endProgram(){
+        System.out.println("Thanks for visiting our program");
+    }
+
+}
