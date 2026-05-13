@@ -5,7 +5,7 @@ public class Adv2{
     public static void main(String[] args) {
 
 
-        System.out.println("Welcome to function program");
+        System.out.println("Welcome to function program.Let's start");
         areYouHuman();
         userName();
         userAge();
