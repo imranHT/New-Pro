@@ -132,3 +132,56 @@ public class Return{
         return companyName;
     }
 }
+
+public class Return{
+
+    public static void main(String[] args) {
+
+        System.out.println("Welcome to a function calculator using argument");
+        System.out.println("Addition");
+        System.out.println(addOfTwoNumber(10,21));
+        System.out.println(addOfTwoNumber(43,43));
+        System.out.println();
+        System.out.println("Subtraction ");
+        System.out.println(subOfTwoNumber(10,1));
+        System.out.println(subOfTwoNumber(100,1));
+        System.out.println();
+        System.out.println("Multiplication");
+        System.out.println(multOfTwoNumber(5,5));
+        System.out.println(multOfTwoNumber(4,10));
+        System.out.println();
+        System.out.println("Division");
+        System.out.println(divisionOfTwoNumber(10,2));
+        System.out.println(divisionOfTwoNumber(100,20));
+    }
+
+    public static int addOfTwoNumber(int first, int second){
+
+        System.out.println("Enter first number"+first);
+        System.out.println("Enter second number"+second);
+        int sum = first+second;
+        return sum;
+    }
+
+    public static int subOfTwoNumber(int firstNum,int secondNum){
+
+        System.out.println("Enter first number"+firstNum);
+        System.out.println("Enter second number"+secondNum);
+        int sum2 = firstNum-secondNum;
+        return sum2;
+    }
+    public static int multOfTwoNumber(int firstNumb,int secondNumb){
+        System.out.println("Enter first number"+firstNumb);
+        System.out.println("Enter second number"+secondNumb);
+
+        int sum3 = firstNumb * secondNumb;
+        return sum3;
+    }
+    public static double divisionOfTwoNumber(int firstNumber,int secondNumber){
+        System.out.println("Enter first number"+firstNumber);
+        System.out.println("Enter second number"+secondNumber);
+        int sum4 = firstNumber / secondNumber;
+        return sum4;
+    }
+
+}
