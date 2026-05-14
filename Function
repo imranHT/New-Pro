@@ -92,3 +92,43 @@ public class Return{
                 System.out.println("Welcome to the calculator");
         }
 }
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class Return{
+    static Scanner imran = new Scanner(System.in);
+    public static void main(String[] args) {
+
+       yourName();
+       getCompanyName();
+        int num1 = getSum();
+        int num2 = getSum();
+
+         String companyName;
+        int sum = num1 + num2;
+        System.out.println("The sum is "+sum);
+    }
+
+    public static int getSum(){
+        System.out.println("Enter the Number Here : ");
+           int result = imran.nextInt();
+           return  result;
+    }
+
+    public static void yourName(){
+
+        System.out.println("Enter your name :");
+        String name  = imran.nextLine();
+        System.out.println("Hello "+name+ " Welcome to the place");
+    }
+
+    public static String getCompanyName(){
+
+        System.out.println("Enter Your Company Name :");
+        String companyName = imran.nextLine();
+        System.out.println("Hello From "+companyName+ " welcome to the place");
+
+        return companyName;
+    }
+}
