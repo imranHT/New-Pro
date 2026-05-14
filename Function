@@ -54,3 +54,41 @@ public class Adv2{
     }
 
 }
+
+
+
+
+
+
+
+import java.util.Scanner;
+
+public class Return{
+        public static void main(String[] args) {
+
+                appreciate();
+
+
+                int number1 = getResult();
+                int number2 = getResult();
+
+                int sum = number1 + number2;
+
+                System.out.println("The result is " + sum);
+        }
+
+        public static int getResult(){
+           Scanner imran = new Scanner(System.in);
+                System.out.println("Enter a value here :");
+
+                int number = imran.nextInt();
+
+                return number;
+
+
+        }
+
+        public static void appreciate(){
+                System.out.println("Welcome to the calculator");
+        }
+}
