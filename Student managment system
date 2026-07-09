@@ -1,0 +1,118 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args) {
+
+        Scanner imran = new Scanner(System.in);
+
+        Student student1 = new Student("Imran hasan",1001,23,"Prime University","Mirpur 1","Computer Science and Engineering",3.85,true);
+        Student student2 = new Student("Toufiqur Rahman",1003,27,"Prime University","Kallanpur","Computer Science and Engineering",3.50,true);
+        Student student3 = new Student("Sabrina Mumu",1009,24,"Prime University","Jatrabari","Computer Science and Engineering",3.44,true);
+        Student student4 = new Student("Nowshin Shams",1010,26,"Prime University","Kazipara","Computer Science and Engineering",3.30,true);
+        Student student5 = new Student("Shawon Mridha",1012,23,"Prime University","Gabtoli","Computer Science and Engineering",3.90,true);
+        Student student6 = new Student("Orko Ryhan",1014,23,"Prime University","Mirpur 10","Computer Science and Engineering",3.67,true);
+        Student student7 = new Student("Rohul amin Fahad",1016,24,"Prime University","Kazipara","Computer Science and Engineering",3.89,true);
+        Student student8 = new Student("Mahmudul Hasan",1017,24,"Prime University","Sawrapara","Computer Science and Engineering",3.76,true);
+        Student student9 = new Student("Hamim Reza",1019,24,"Prime University","Mirpur 2","Computer Science and Engineering",3.90,true);
+        Student student10 = new Student("Rashed Hossen",1020,25,"Prime University","Mirpur 2","Computer Science and Engineering",3.75,true);
+        Student student11 = new Student("Lia Akhtar",1024,23,"Prime University","Savar","Computer Science and Engineering",3.77,true);
+        Student student12 = new Student("Sakib Hossen",1028,24,"Prime University","Mirpur 2","Computer Science and Engineering",3.65,true);
+        Student student13 = new Student("Anik Hasan",1030,26,"Prime University","Sawrapara","Computer Science and Engineering",3.33,true);
+        Student student14 = new Student("Sumona Ayat",1032,25,"Prime University","Mirpur 1","Computer Science and Engineering",3.84,true);
+        Student student15 = new Student("Abu Rahan",1034,27,"Prime University","Mirpur 2","Computer Science and Engineering",3.60,true);
+        Student student16 = new Student("Milon Hossen Mohon",1035,24,"Prime University","Mirpur 1","Computer Science and Engineering",3.75,true);
+        Student student17 = new Student("Mahbobol Hasan",1042,25,"Prime University","Mirpur 1","Computer Science and Engineering",3.70,true);
+
+
+        System.out.println("=============================");
+        System.out.println("Prime University ERP System");
+        System.out.println("=============================");
+
+        System.out.println("Welcome to this System");
+        System.out.println("=============================");
+
+        System.out.println("Enter Your ID Here : ");
+         int id= imran.nextInt();
+
+         if(id == student1.id){
+             student1.study();
+         } else if (id == student2.id) {
+             student2.study();
+         }else if (id == student3.id) {
+             student3.study();
+         }else if (id == student4.id) {
+             student4.study();
+         }else if (id == student5.id) {
+             student5.study();
+         }else if (id == student6.id) {
+             student6.study();
+         }else if (id == student7.id) {
+             student7.study();
+         }else if (id == student8.id) {
+             student8.study();
+         }else if (id == student9.id) {
+             student9.study();
+         }else if (id == student10.id) {
+             student10.study();
+         }else if (id == student11.id) {
+             student11.study();
+         }else if (id == student12.id) {
+             student12.study();
+         }else if (id == student13.id) {
+             student13.study();
+         }else if (id == student14.id) {
+             student14.study();
+         }else if (id == student15.id) {
+             student15.study();
+         }else if (id == student16.id) {
+             student16.study();
+         }else if (id == student17.id) {
+             student17.study();
+         }
+
+    imran.close();
+    }
+}
+-------------------------------
+
+public class Student {
+
+    String name;
+    int id;
+    int age;
+    String universityName;
+    String studentLocation;
+    String department;
+    double cgpa;
+    boolean isEnrolled;
+
+
+    Student(String name, int id,int age, String universityName, String studentLocation, String department, double cgpa,
+            boolean isEnrollment){
+
+        this.name = name;
+        this.id = id;
+        this.age = age;
+        this.universityName = universityName;
+        this.studentLocation = studentLocation;
+        this.department = department;
+        this.cgpa = cgpa;
+        this.isEnrolled = true;
+
+
+    }
+    void study(){
+        System.out.println("======================");
+        System.out.println("Name : " + name);
+        System.out.println("ID : " + id);
+        System.out.println("Age : " + age);
+        System.out.println("University : " + universityName);
+        System.out.println("Location : " + studentLocation);
+        System.out.println("Department : " + department);
+        System.out.println("CGPA : " + cgpa);
+        System.out.println("Enrolled : " + isEnrolled);
+        System.out.println("======================");
+    }
+}
+
+
