@@ -1,0 +1,66 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Shop{
+    public static void main(String[] args) {
+
+        Scanner imran = new Scanner(System.in);
+
+        ArrayList<String>productName = new ArrayList<>();
+        ArrayList<Double>price = new ArrayList<>();
+
+        System.out.println("=========== Talukdar A to Z Shop ============");
+        System.out.println("=========== Welcome to the shop ============");
+        System.out.println("Product Quantity :");
+        int count  = imran.nextInt();
+        imran.nextLine();
+
+
+
+        for(int i = 0; i<count; i++){
+            System.out.println("Product Number :" +(i+1)+ " Name :" );
+            String name = imran.nextLine();
+            productName.add(name);
+
+
+
+
+            System.out.print("Price : ");
+            double productPrice = imran.nextDouble();
+            price.add(productPrice);
+            imran.nextLine();
+        }
+        System.out.println("========== Cart ===========");
+        double totalPrice = 0;
+
+        for(int i = 0; i<productName.size(); i++){
+            System.out.println((i+1)+"." +productName.get(i)+" - "+price.get(i)+ " Tk");
+            totalPrice += price.get(i);
+        }
+        System.out.println("\n Total Product :"+count);
+        System.out.println("Total Price : "+totalPrice);
+        System.out.println("Thank you for shopping. See you again.");
+         imran.close();
+    }
+}
+
+
+
+
+=========== Talukdar A to Z Shop ============
+=========== Welcome to the shop ============
+Product Quantity :
+2
+Product Number :1 Name :
+Shirt
+Price : 1500
+Product Number :2 Name :
+adidas shoo
+Price : 5000
+========== Cart ===========
+1.Shirt - 1500.0 Tk
+2.adidas shoo - 5000.0 Tk
+
+ Total Product :2
+Total Price : 6500.0
+Thank you for shopping. See you again.
